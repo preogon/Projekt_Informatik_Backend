@@ -1,0 +1,28 @@
+{
+    "Create Action": {
+        "prefix": "new-action",
+        "description": "Creates a template Action",
+        "body": [
+            "<?php",
+            "namespace Actions;",
+            "",
+            "use base\\Action;",
+            "",
+            "class $TM_FILENAME_BASE extends Action {",
+            "",
+            "\tprotected function parameters ():array {",
+            "\t\treturn array();",
+            "\t}",
+            "",
+            "\tprotected function action (array \\$parameters):array {",
+            "\t\treturn array();",
+            "\t}",
+            "",
+            "\tprotected function postprocess (array \\$result):array {",
+            "\t\treturn array();",
+            "\t}",
+            "}",
+            ""
+        ]
+    }
+}
