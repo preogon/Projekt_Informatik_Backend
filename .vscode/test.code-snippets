@@ -1,0 +1,19 @@
+{
+	"Test Template": {
+		"prefix": "testsuite",
+		"body": [
+			"<?php",
+			"use test\\Assert;",
+			"use test\\Test;",
+			"",
+			"$$test = new Test(\"Description\");",
+			"",
+			"$$test->test(\"Description\", function () {",
+			"Assert::true(true);",
+			"});",
+			"",
+			"$$test->run();"
+		],
+		"description": "Setup a template for a new TestSuite"
+	}
+}
